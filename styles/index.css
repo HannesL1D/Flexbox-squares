@@ -16,8 +16,8 @@ body {
 .container {
     position: relative;
     width: 42%;
-    min-height: 20%;
-    padding: 15px;
+    min-height: 25%;
+    padding: 10px;
     display: flex;
     background-color: #F48C06;
     margin-bottom: 15px;
@@ -36,4 +36,46 @@ body {
     justify-content: center;
     align-items: center;
     flex-basis: 80px;
+}
+
+.top-left {
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.middle-left {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-right {
+    justify-content: center;
+}
+
+.middle-right {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/* connected to .middle-right */
+.low {
+    align-self: flex-end;
+}
+/* connected to .middle-right */
+/*connected t .bottom.left*/
+.bottom-left {
+justify-content: space-evenly;
+}
+
+.middle {
+align-self: center;
+}
+/*connected t .bottom.left*/
+
+.bottom-right {
+justify-content: space-evenly;
+align-items: center;
+}
+
+.broad {
+    flex-grow: 2;
 }
