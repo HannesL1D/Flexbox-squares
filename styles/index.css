@@ -1,10 +1,9 @@
 
 body {
     background-color: rgba(55, 6, 23, 1);
-    margin: 0;
 }
-
-.flex_squares {
+    
+.flex__squares {
     display: flex;
     height: 100vh; 
     flex-direction: column-reverse;
@@ -15,8 +14,8 @@ body {
 
 .container {
     position: relative;
-    width: 42%;
-    min-height: 25%;
+    width: 37%;
+    min-height: 20%;
     padding: 10px;
     display: flex;
     background-color: #F48C06;
@@ -29,8 +28,7 @@ body {
     background-color: rgba(157, 2, 8, 1);
     border: rgba(157, 2, 8, 1);
     border-radius: 4px;
-    min-width: 80px;
-    min-height: 80px;
+    min-height: 50px;
     margin: 20px;
     display: flex;
     justify-content: center;
